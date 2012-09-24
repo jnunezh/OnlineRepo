@@ -97,7 +97,7 @@ public class Main {
         BubbleSorter.sortDesc(pers,new DniComparer());
         for(Person p:pers)
         {
-          System.out.println(p);
+         System.out.println(p);
         }
         System.out.println("-----------------------------------------");
         BubbleSorter.sortAsc(pers,new AgeComparer());
